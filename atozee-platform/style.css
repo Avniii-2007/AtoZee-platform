@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3be5;
+  color: white;
+  padding: 15px;
+}
+.search-box input {
+  padding: 8px;
+  width: 250px;
+}
+.search-box button {
+  padding: 8px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+.nav-links a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  background: #5a5aff;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card img {
+  height: 120px;
+}
