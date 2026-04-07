@@ -7,7 +7,9 @@
 
 <body>
 <div class="navbar">
-  <h2>AtoZee</h2>
+  <div id="logo">
+    <img src="logo.jpeg">
+  </div>
 
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="Search...">
@@ -19,6 +21,7 @@
     <a href="#">Orders</a>
     <a href="#">Wishlist</a>
     <a href="#">Cart</a>
+    <button onclick="toggleMode()" id="modeBtn">Mode🌙</button>
   </div>
 </div>
 <div class="menu">
@@ -26,6 +29,8 @@
   <p onclick="filterCategory('smartphones')">Phones</p>
   <p onclick="filterCategory('laptops')">Laptops</p>
   <p onclick="filterCategory('fragrances')">Perfumes</p>
+  <p onclick="filterCategory('beauty')">Makeup</p>
+  <p onclick="filterCategory('groceries')">Food</p>
 </div>
 <div id="products"></div>
 
